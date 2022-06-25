@@ -24,7 +24,7 @@ admin.site.site_title = "Prince Ice Creams Portal"
 admin.site.index_title = "Welcome to Prince Ice Creams"
 
 from django.views.static import serve
-from django.conf.urls import url
+from django.urls import re_path as url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
